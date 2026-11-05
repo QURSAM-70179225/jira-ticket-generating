@@ -1,0 +1,84 @@
+﻿Ticket ID,Title,Type,Parent,Status,Description,Acceptance Criteria,Source Reference,Dependencies,Open Questions,Priority,Estimate,Deadline,Warnings,Python Corrections
+TASK-001,Admin Management,Epic,,Needs clarification,Provide staff interface to manage orders and menu,"Epic: see child tickets TASK-002, TASK-003, TASK-004
+Project constraint: The website must be available in English only. [S12]
+Project constraint: The website must go live by 15 December 2026. [S14]","S9: ""The bakery staff need an admin page to view all orders for a selected date.""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?",Not specified,Not specified,Not specified,,"Constraint S12 was on no task: added as a project constraint (""The website must be available in English only."")
+Constraint S14 was on no task: added as a project constraint (""The website must go live by 15 December 2026."")"
+TASK-002,Create admin order list view,Story,TASK-001,Needs clarification,Show all orders for a selected date,"The bakery staff need an admin page to view all orders for a selected date [S9: ""The bakery staff need an admin page to view all orders for a selected date""]","S9: ""The bakery staff need an admin page to view all orders for a selected date""",,"Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?",Not specified,Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-003,Implement order status updates,Story,TASK-001,Needs clarification,"Allow staff to mark orders as ""Ready"" or ""Collected""","Staff must be able to mark an order as ""Ready"" or ""Collected"" [S10: ""Staff must be able to mark an order as ""Ready"" or ""Collected""""]","S10: ""Staff must be able to mark an order as ""Ready"" or ""Collected""""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?",Not specified,Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-004,Admin menu CRUD,Story,TASK-001,Needs clarification,"Enable staff to add, edit and remove menu products from the admin page","Staff must be able to add, edit and remove menu products from the admin page [S11: ""Staff must be able to add, edit and remove menu products from the admin page""]","S11: ""Staff must be able to add, edit and remove menu products from the admin page""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?",Not specified,Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-005,Menu and Ordering,Epic,,Needs clarification,Menu and ordering pages are the highest priority,"Epic: see child tickets TASK-006, TASK-007, TASK-008, TASK-009, TASK-010, TASK-011
+Project constraint: The website must be available in English only. [S12]
+Project constraint: The website must go live by 15 December 2026. [S14]","S13: ""The menu and ordering pages are the highest priority.""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?",Not specified,Not specified,Not specified,,"Constraint S12 was on no task: added as a project constraint (""The website must be available in English only."")
+Constraint S14 was on no task: added as a project constraint (""The website must go live by 15 December 2026."")"
+TASK-006,Implement product menu display,Story,TASK-005,Needs clarification,"Display a menu of products with a name, photo, price and description for each item","Customers must be able to browse a menu of products with a name, photo, price and description for each item [S3: ""Customers must be able to browse a menu of products with a name, photo, price and description for each item""]","S3: ""Customers must be able to browse a menu of products with a name, photo, price and description for each item""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-007,Add products to cart and adjust quantity,Story,TASK-005,Needs clarification,Allow customers to add products to a cart and change the quantity of each item,"Customers must be able to add products to a cart and change the quantity of each item [S4: ""Customers must be able to add products to a cart and change the quantity of each item""]","S4: ""Customers must be able to add products to a cart and change the quantity of each item""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-008,Select pickup date and time slot,Story,TASK-005,Needs clarification,Enable customers to choose a pickup date and a pickup time slot when placing an order,"Customers must choose a pickup date and a pickup time slot when placing an order [S5: ""Customers must choose a pickup date and a pickup time slot when placing an order""]","S5: ""Customers must choose a pickup date and a pickup time slot when placing an order""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-009,Generate pickup time slots,Story,TASK-005,Needs clarification,Provide pickup time slots every 30 minutes between 10:00 AM and 8:00 PM,"Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM [S6: ""Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM""]","S6: ""Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-010,Handle cash on pickup payment,Story,TASK-005,Needs clarification,Implement payment as cash on pickup only; no online payment is needed,"Payment is cash on pickup only; no online payment is needed [S7: ""Payment is cash on pickup only; no online payment is needed""]","S7: ""Payment is cash on pickup only; no online payment is needed""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,
+TASK-011,Send order confirmation email,Story,TASK-005,Needs clarification,"After placing an order, the customer must receive a confirmation email with an order number","After placing an order, the customer must receive a confirmation email with an order number [S8: ""After placing an order, the customer must receive a confirmation email with an order number""]","S8: ""After placing an order, the customer must receive a confirmation email with an order number""",,"Q-001: What customer contact information is required to place an order and receive the confirmation email?
+Q-002: Do customers need to create an account or log in to place an order, or can they order as guests?
+Q-003: Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?
+Q-004: What is the allowed range of pickup dates that customers can select?
+Q-005: Which email service or provider will be used to send the order confirmation emails?
+Q-006: What does ""highest priority"" mean in terms of development sequencing and feature completion?
+Q-007: Will customers be able to view the status of their order on the website after placing it?","menu and ordering pages are the highest priority (S13: ""The menu and ordering pages are the highest priority"")",Not specified,"15 December 2026 (S14: ""The website must go live by 15 December 2026"")",,

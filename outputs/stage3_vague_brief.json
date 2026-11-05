@@ -1,0 +1,222 @@
+{
+  "epics": [
+    {
+      "title": "Member core features",
+      "description": "Members should be able to book classes, see their workout history, and pay online for memberships.",
+      "source": {
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      "tasks": [
+        {
+          "key": "T1",
+          "title": "Implement class booking",
+          "type": "Story",
+          "description": "Members should be able to book classes.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Members should be able to book classes",
+              "quote": "Members should be able to book classes and see their workout history.",
+              "ref": "S3"
+            }
+          ],
+          "source": {
+            "quote": "Members should be able to book classes and see their workout history.",
+            "ref": "S3"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-015",
+            "Q-008"
+          ],
+          "priority": null,
+          "deadline": null
+        },
+        {
+          "key": "T2",
+          "title": "Display workout history",
+          "type": "Story",
+          "description": "Members should be able to see their workout history.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Members should be able to see their workout history",
+              "quote": "Members should be able to book classes and see their workout history.",
+              "ref": "S3"
+            }
+          ],
+          "source": {
+            "quote": "Members should be able to book classes and see their workout history.",
+            "ref": "S3"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-008"
+          ],
+          "priority": null,
+          "deadline": null
+        },
+        {
+          "key": "T3",
+          "title": "Add online membership payment",
+          "type": "Story",
+          "description": "Members should be able to pay online for memberships.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Members should be able to pay online for memberships.",
+              "quote": "Members should be able to pay online for memberships.",
+              "ref": "S6"
+            }
+          ],
+          "source": {
+            "quote": "Members should be able to pay online for memberships.",
+            "ref": "S6"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-007",
+            "Q-008"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Trainer core features",
+      "description": "Trainers can create workout plans for members.",
+      "source": {
+        "quote": "Trainers can create workout plans for members.",
+        "ref": "S5"
+      },
+      "tasks": [
+        {
+          "key": "T4",
+          "title": "Enable workout plan creation",
+          "type": "Story",
+          "description": "Trainers can create workout plans for members.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Trainers can create workout plans for members.",
+              "quote": "Trainers can create workout plans for members.",
+              "ref": "S5"
+            }
+          ],
+          "source": {
+            "quote": "Trainers can create workout plans for members.",
+            "ref": "S5"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-009",
+            "Q-016"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Admin core features",
+      "description": "Admins should get reports.",
+      "source": {
+        "quote": "Admins should get reports.",
+        "ref": "S11"
+      },
+      "tasks": [
+        {
+          "key": "T5",
+          "title": "Provide admin reports",
+          "type": "Story",
+          "description": "Admins should get reports.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Admins should get reports.",
+              "quote": "Admins should get reports.",
+              "ref": "S11"
+            }
+          ],
+          "source": {
+            "quote": "Admins should get reports.",
+            "ref": "S11"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-010",
+            "Q-011"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "MBS system integration",
+      "description": "The app must sync with our MBS system so member data stays up to date.",
+      "source": {
+        "quote": "The app must sync with our MBS system so member data stays up to date.",
+        "ref": "S7"
+      },
+      "tasks": [
+        {
+          "key": "T6",
+          "title": "Synchronize with MBS system",
+          "type": "Story",
+          "description": "The app must sync with our MBS system so member data stays up to date.",
+          "acceptance_criteria": [
+            {
+              "criterion": "The app must sync with our MBS system so member data stays up to date.",
+              "quote": "The app must sync with our MBS system so member data stays up to date.",
+              "ref": "S7"
+            }
+          ],
+          "source": {
+            "quote": "The app must sync with our MBS system so member data stays up to date.",
+            "ref": "S7"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-013",
+            "Q-014"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Platform decision",
+      "description": "We need this as a mobile app for iPhone and Android, but also to keep costs low it should be a web‑only product, no app store apps.",
+      "source": {
+        "quote": "We need this as a mobile app for iPhone and Android.",
+        "ref": "S4"
+      },
+      "tasks": [
+        {
+          "key": "T7",
+          "title": "Resolve platform delivery approach",
+          "type": "Task",
+          "description": "Determine whether the product will be delivered as native mobile apps for iPhone and Android or as a web‑only solution.",
+          "acceptance_criteria": [],
+          "source": {
+            "quote": "We need this as a mobile app for iPhone and Android.",
+            "ref": "S4"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-017"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Future enhancements",
+      "description": "Later in the year we also want a leaderboard to keep people motivated.",
+      "source": {
+        "quote": "Later in the year we also want a leaderboard to keep people motivated.",
+        "ref": "S9"
+      }
+    }
+  ]
+}

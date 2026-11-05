@@ -1,0 +1,71 @@
+[
+  {
+    "category": "missing",
+    "issue": "Customer access method not defined",
+    "quotes": [
+      "The website is for customers who want to order cakes and pastries for pickup."
+    ],
+    "refs": [
+      "S2"
+    ],
+    "question": "Will customers need to create an account or can they place orders as guests, and how will they log in or identify themselves?",
+    "affects": [
+      "browse a menu of products with name, photo, price and description",
+      "add products to a cart and change the quantity of each item",
+      "choose a pickup date and a pickup time slot when placing an order",
+      "receive a confirmation email with an order number"
+    ],
+    "id": "Q-001",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "Staff access method not defined",
+    "quotes": [
+      "The bakery staff need an admin page to view all orders for a selected date."
+    ],
+    "refs": [
+      "S9"
+    ],
+    "question": "How will bakery staff authenticate to the admin page, and is a separate staff account required?",
+    "affects": [
+      "admin page to view all orders for a selected date",
+      "mark an order as \"Ready\" or \"Collected\"",
+      "add, edit and remove menu products from the admin page"
+    ],
+    "id": "Q-002",
+    "examples_removed": true
+  },
+  {
+    "category": "scope_gap",
+    "issue": "No rule for how far in advance a pickup date can be selected",
+    "quotes": [
+      "Customers must choose a pickup date and a pickup time slot when placing an order."
+    ],
+    "refs": [
+      "S5"
+    ],
+    "question": "What is the maximum number of days in advance that a customer may select a pickup date?",
+    "affects": [
+      "choose a pickup date and a pickup time slot when placing an order"
+    ],
+    "id": "Q-003",
+    "examples_removed": false
+  },
+  {
+    "category": "scope_gap",
+    "issue": "Sender email address for order confirmations not specified",
+    "quotes": [
+      "After placing an order, the customer must receive a confirmation email with an order number."
+    ],
+    "refs": [
+      "S8"
+    ],
+    "question": "From which email address should the order confirmation emails be sent?",
+    "affects": [
+      "receive a confirmation email with an order number"
+    ],
+    "id": "Q-004",
+    "examples_removed": false
+  }
+]

@@ -1,0 +1,14 @@
+Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore.
+The website is for customers who want to order cakes and pastries for pickup.
+Customers must be able to browse a menu of products with a name, photo, price and description for each item.
+Customers must be able to add products to a cart and change the quantity of each item.
+Customers must choose a pickup date and a pickup time slot when placing an order.
+Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.
+Payment is cash on pickup only; no online payment is needed.
+After placing an order, the customer must receive a confirmation email with an order number.
+The bakery staff need an admin page to view all orders for a selected date.
+Staff must be able to mark an order as "Ready" or "Collected".
+Staff must be able to add, edit and remove menu products from the admin page.
+The website must be available in English only.
+The menu and ordering pages are the highest priority.
+The website must go live by 15 December 2026.

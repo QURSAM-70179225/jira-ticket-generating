@@ -1,0 +1,57 @@
+﻿Ticket ID,Title,Type,Parent,Status,Description,Acceptance Criteria,Source Reference,Dependencies,Open Questions,Priority,Estimate,Deadline,Warnings,Python Corrections
+TASK-001,Core Features,Epic,,Needs clarification,"Implement the main functionality required for members, trainers and admins as described in the brief","Epic: see child tickets TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007
+Project constraint: We need this as a mobile app for iPhone and Android. [S4]
+Project constraint: To keep costs low, this should be a web-only product, no app store apps. [S10]","S1: ""We are FitNow and we want a modern fitness app for our members.""",,"Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-006: How should admins access the system? Do they need an account or login?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,"Constraint S4 was on no task: added as a project constraint (""We need this as a mobile app for iPhone and Android."")
+Constraint S10 was on no task: added as a project constraint (""To keep costs low, this should be a web-only product, no app store apps."")"
+TASK-002,Book Classes,Story,TASK-001,Needs clarification,Members should be able to book classes,"Members should be able to book classes [S3: ""Members should be able to book classes and see their workout history.""]","S3: ""Members should be able to book classes and see their workout history.""",,"Q-009: What information is required to book a class?
+Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-004: How should members access the app? Do they need an account or login?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,
+TASK-003,View Workout History,Story,TASK-001,Needs clarification,Members should be able to see their workout history,"Members should be able to book classes and see their workout history. [S3: ""Members should be able to book classes and see their workout history.""]","S3: ""Members should be able to book classes and see their workout history.""",,"Q-004: How should members access the app? Do they need an account or login?
+Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,"Criterion reworded by the AI was replaced by the brief's words: ""Members should be able to see their workout history"" -> ""Members should be able to book classes and see their workout history."""
+TASK-004,Create Workout Plans,Story,TASK-001,Needs clarification,Trainers can create workout plans for members,"Trainers can create workout plans for members [S5: ""Trainers can create workout plans for members.""]","S5: ""Trainers can create workout plans for members.""",,"Q-005: How should trainers access the system? Do they need an account or login?
+Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,
+TASK-005,Pay Online for Memberships,Story,TASK-001,Needs clarification,Members should be able to pay online for memberships,"Members should be able to pay online for memberships [S6: ""Members should be able to pay online for memberships.""]","S6: ""Members should be able to pay online for memberships.""",,"Q-003: Which payment methods are required for online membership payments?
+Q-010: What currency and tax rules should be applied to membership payments?
+Q-004: How should members access the app? Do they need an account or login?
+Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,
+TASK-006,Sync with MBS System,Story,TASK-001,Needs clarification,The app must sync with our MBS system so member data stays up to date,"The app must sync with our MBS system so member data stays up to date [S7: ""The app must sync with our MBS system so member data stays up to date.""]","S7: ""The app must sync with our MBS system so member data stays up to date.""",,"Q-007: What is the MBS system and what data does it provide?
+Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-002: What is the target launch date for the project?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?",Not specified,Not specified,Not specified,,
+TASK-007,Implement Leaderboard,Story,TASK-001,Needs clarification,Build the leaderboard feature to keep people motivated,Not specified (the brief gives no testable condition; see open questions),"S9: ""Later in the year we also want a leaderboard to keep people motivated.""",,"Q-001: Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?
+Q-008: What are the rules and criteria for the leaderboard?
+Q-012: What performance expectations define 'fast' for the app?
+Q-013: What criteria define 'user-friendly' for the app?
+Q-014: What security requirements must the app meet?
+Q-002: What is the target launch date for the project?
+Q-011: What does 'modern' mean in terms of design or features?
+Q-015: When exactly do you want the leaderboard feature to be available?",Not specified,Not specified,Not specified,,

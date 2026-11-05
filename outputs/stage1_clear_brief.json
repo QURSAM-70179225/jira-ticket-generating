@@ -1,0 +1,98 @@
+{
+  "goals": [
+    {
+      "text": "online ordering website for its single shop in Lahore",
+      "quote": "Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore.",
+      "ref": "S1"
+    }
+  ],
+  "users": [
+    {
+      "text": "customers",
+      "quote": "The website is for customers who want to order cakes and pastries for pickup.",
+      "ref": "S2"
+    },
+    {
+      "text": "bakery staff",
+      "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+      "ref": "S9"
+    }
+  ],
+  "features": [
+    {
+      "text": "browse a menu of products with name, photo, price and description",
+      "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+      "ref": "S3"
+    },
+    {
+      "text": "add products to a cart and change the quantity of each item",
+      "quote": "Customers must be able to add products to a cart and change the quantity of each item.",
+      "ref": "S4"
+    },
+    {
+      "text": "choose a pickup date and a pickup time slot when placing an order",
+      "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+      "ref": "S5"
+    },
+    {
+      "text": "receive a confirmation email with an order number",
+      "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+      "ref": "S8"
+    },
+    {
+      "text": "admin page to view all orders for a selected date",
+      "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+      "ref": "S9"
+    },
+    {
+      "text": "mark an order as \"Ready\" or \"Collected\"",
+      "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\".",
+      "ref": "S10"
+    },
+    {
+      "text": "add, edit and remove menu products from the admin page",
+      "quote": "Staff must be able to add, edit and remove menu products from the admin page.",
+      "ref": "S11"
+    }
+  ],
+  "constraints": [
+    {
+      "text": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.",
+      "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.",
+      "ref": "S6"
+    },
+    {
+      "text": "Payment is cash on pickup only; no online payment is needed.",
+      "quote": "Payment is cash on pickup only; no online payment is needed.",
+      "ref": "S7"
+    },
+    {
+      "text": "The website must be available in English only.",
+      "quote": "The website must be available in English only.",
+      "ref": "S12"
+    }
+  ],
+  "quality_requirements": [],
+  "integrations": [],
+  "deadlines": [
+    {
+      "text": "go live by 15 December 2026",
+      "quote": "The website must go live by 15 December 2026.",
+      "ref": "S14"
+    }
+  ],
+  "priorities": [
+    {
+      "text": "menu and ordering pages are the highest priority",
+      "quote": "The menu and ordering pages are the highest priority.",
+      "ref": "S13"
+    }
+  ],
+  "terms_used": [
+    {
+      "text": "Sweet Crumbs Bakery",
+      "quote": "Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore.",
+      "ref": "S1"
+    }
+  ]
+}

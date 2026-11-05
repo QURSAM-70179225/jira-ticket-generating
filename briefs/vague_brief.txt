@@ -1,0 +1,12 @@
+We are FitNow and we want a modern fitness app for our members.
+It should be fast and user-friendly.
+Members should be able to book classes and see their workout history.
+We need this as a mobile app for iPhone and Android.
+Trainers can create workout plans for members.
+Members should be able to pay online for memberships.
+The app must sync with our MBS system so member data stays up to date.
+It should be secure.
+Later in the year we also want a leaderboard to keep people motivated.
+To keep costs low, this should be a web-only product, no app store apps.
+Admins should get reports.
+We want to launch soon.

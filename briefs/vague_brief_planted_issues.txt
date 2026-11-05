@@ -1,0 +1,32 @@
+Planted issues in vague_brief.txt (the tool should find ALL of these, and invent nothing):
+
+VAGUE WORDS
+1. "modern" - no measurable meaning
+2. "fast" - no performance target
+3. "user-friendly" - no measurable meaning
+4. "secure" - no security requirements stated
+5. "soon" - no actual launch date
+
+CONTRADICTION
+6. "mobile app for iPhone and Android" vs "web-only product, no app store apps"
+
+UNDEFINED TERMS
+7. "MBS system" - never explained (what system, what API?)
+
+MISSING INFORMATION
+8. No launch date or deadline
+9. No priorities stated
+10. Booking: no class types, capacity or cancellation rules stated
+11. "Later in the year" leaderboard - unclear whether it is in scope now
+
+SCOPE GAPS (ask, do NOT add)
+12. Online payment: which payment methods, currencies or provider?
+13. "Admins should get reports" - which reports, what data, how often?
+14. Trainers / members / admins - is login needed? Which roles exist? (ask, don't build)
+15. Sync with MBS - one-way or two-way, and how often?
+
+MUST NOT HAPPEN (signs the tool invented things)
+- Picking iOS or web on its own
+- Choosing a payment provider (e.g. Stripe)
+- Inventing a page-load target, deadline, priority or estimate
+- Adding features not in the brief (notifications, chat, etc.)

@@ -1,0 +1,119 @@
+{
+  "goals": [
+    {
+      "text": "modern fitness app for members",
+      "quote": "We are FitNow and we want a modern fitness app for our members.",
+      "ref": "S1"
+    }
+  ],
+  "users": [
+    {
+      "text": "Members",
+      "quote": "Members should be able to book classes and see their workout history.",
+      "ref": "S3"
+    },
+    {
+      "text": "Trainers",
+      "quote": "Trainers can create workout plans for members.",
+      "ref": "S5"
+    },
+    {
+      "text": "Admins",
+      "quote": "Admins should get reports.",
+      "ref": "S11"
+    }
+  ],
+  "features": [
+    {
+      "text": "book classes",
+      "quote": "Members should be able to book classes and see their workout history.",
+      "ref": "S3"
+    },
+    {
+      "text": "see workout history",
+      "quote": "Members should be able to book classes and see their workout history.",
+      "ref": "S3"
+    },
+    {
+      "text": "create workout plans",
+      "quote": "Trainers can create workout plans for members.",
+      "ref": "S5"
+    },
+    {
+      "text": "pay online for memberships",
+      "quote": "Members should be able to pay online for memberships.",
+      "ref": "S6"
+    },
+    {
+      "text": "leaderboard",
+      "quote": "Later in the year we also want a leaderboard to keep people motivated.",
+      "ref": "S9"
+    },
+    {
+      "text": "get reports",
+      "quote": "Admins should get reports.",
+      "ref": "S11"
+    }
+  ],
+  "constraints": [
+    {
+      "text": "web-only product, no app store apps",
+      "quote": "To keep costs low, this should be a web-only product, no app store apps.",
+      "ref": "S10"
+    },
+    {
+      "text": "mobile app for iPhone and Android",
+      "quote": "We need this as a mobile app for iPhone and Android.",
+      "ref": "S4"
+    }
+  ],
+  "quality_requirements": [
+    {
+      "text": "fast",
+      "quote": "It should be fast and user-friendly.",
+      "ref": "S2"
+    },
+    {
+      "text": "user-friendly",
+      "quote": "It should be fast and user-friendly.",
+      "ref": "S2"
+    },
+    {
+      "text": "secure",
+      "quote": "It should be secure.",
+      "ref": "S8"
+    },
+    {
+      "text": "modern",
+      "quote": "We are FitNow and we want a modern fitness app for our members.",
+      "ref": "S1"
+    }
+  ],
+  "integrations": [
+    {
+      "text": "sync with MBS system",
+      "quote": "The app must sync with our MBS system so member data stays up to date.",
+      "ref": "S7"
+    }
+  ],
+  "deadlines": [
+    {
+      "text": "launch soon",
+      "quote": "We want to launch soon.",
+      "ref": "S12"
+    }
+  ],
+  "priorities": [],
+  "terms_used": [
+    {
+      "text": "FitNow",
+      "quote": "We are FitNow and we want a modern fitness app for our members.",
+      "ref": "S1"
+    },
+    {
+      "text": "MBS system",
+      "quote": "The app must sync with our MBS system so member data stays up to date.",
+      "ref": "S7"
+    }
+  ]
+}

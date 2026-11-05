@@ -1,0 +1,1281 @@
+{
+  "meta": {
+    "model": "openai/gpt-oss-20b",
+    "generated_at": "2026-11-05T07:00:27+00:00"
+  },
+  "brief": "Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore.\nThe website is for customers who want to order cakes and pastries for pickup.\nCustomers must be able to browse a menu of products with a name, photo, price and description for each item.\nCustomers must be able to add products to a cart and change the quantity of each item.\nCustomers must choose a pickup date and a pickup time slot when placing an order.\nPickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.\nPayment is cash on pickup only; no online payment is needed.\nAfter placing an order, the customer must receive a confirmation email with an order number.\nThe bakery staff need an admin page to view all orders for a selected date.\nStaff must be able to mark an order as \"Ready\" or \"Collected\".\nStaff must be able to add, edit and remove menu products from the admin page.\nThe website must be available in English only.\nThe menu and ordering pages are the highest priority.\nThe website must go live by 15 December 2026.",
+  "sentences": [
+    {
+      "ref": "S1",
+      "text": "Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore."
+    },
+    {
+      "ref": "S2",
+      "text": "The website is for customers who want to order cakes and pastries for pickup."
+    },
+    {
+      "ref": "S3",
+      "text": "Customers must be able to browse a menu of products with a name, photo, price and description for each item."
+    },
+    {
+      "ref": "S4",
+      "text": "Customers must be able to add products to a cart and change the quantity of each item."
+    },
+    {
+      "ref": "S5",
+      "text": "Customers must choose a pickup date and a pickup time slot when placing an order."
+    },
+    {
+      "ref": "S6",
+      "text": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM."
+    },
+    {
+      "ref": "S7",
+      "text": "Payment is cash on pickup only; no online payment is needed."
+    },
+    {
+      "ref": "S8",
+      "text": "After placing an order, the customer must receive a confirmation email with an order number."
+    },
+    {
+      "ref": "S9",
+      "text": "The bakery staff need an admin page to view all orders for a selected date."
+    },
+    {
+      "ref": "S10",
+      "text": "Staff must be able to mark an order as \"Ready\" or \"Collected\"."
+    },
+    {
+      "ref": "S11",
+      "text": "Staff must be able to add, edit and remove menu products from the admin page."
+    },
+    {
+      "ref": "S12",
+      "text": "The website must be available in English only."
+    },
+    {
+      "ref": "S13",
+      "text": "The menu and ordering pages are the highest priority."
+    },
+    {
+      "ref": "S14",
+      "text": "The website must go live by 15 December 2026."
+    }
+  ],
+  "facts": {
+    "goals": [
+      {
+        "text": "online ordering website for its single shop in Lahore",
+        "quote": "Sweet Crumbs Bakery wants an online ordering website for its single shop in Lahore.",
+        "ref": "S1"
+      }
+    ],
+    "users": [
+      {
+        "text": "customers",
+        "quote": "The website is for customers who want to order cakes and pastries for pickup.",
+        "ref": "S2"
+      },
+      {
+        "text": "bakery staff",
+        "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+        "ref": "S9"
+      }
+    ],
+    "features": [
+      {
+        "text": "browse a menu of products with a name, photo, price and description for each item",
+        "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+        "ref": "S3"
+      },
+      {
+        "text": "add products to a cart and change the quantity of each item",
+        "quote": "Customers must be able to add products to a cart and change the quantity of each item.",
+        "ref": "S4"
+      },
+      {
+        "text": "choose a pickup date and a pickup time slot when placing an order",
+        "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+        "ref": "S5"
+      },
+      {
+        "text": "pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+        "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.",
+        "ref": "S6"
+      },
+      {
+        "text": "payment is cash on pickup only; no online payment is needed",
+        "quote": "Payment is cash on pickup only; no online payment is needed.",
+        "ref": "S7"
+      },
+      {
+        "text": "after placing an order, the customer must receive a confirmation email with an order number",
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+        "ref": "S8"
+      },
+      {
+        "text": "admin page to view all orders for a selected date",
+        "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+        "ref": "S9"
+      },
+      {
+        "text": "mark an order as \"Ready\" or \"Collected\"",
+        "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\".",
+        "ref": "S10"
+      },
+      {
+        "text": "add, edit and remove menu products from the admin page",
+        "quote": "Staff must be able to add, edit and remove menu products from the admin page.",
+        "ref": "S11"
+      }
+    ],
+    "constraints": [
+      {
+        "text": "website must be available in English only",
+        "quote": "The website must be available in English only.",
+        "ref": "S12"
+      },
+      {
+        "text": "website must go live by 15 December 2026",
+        "quote": "The website must go live by 15 December 2026.",
+        "ref": "S14"
+      }
+    ],
+    "quality_requirements": [],
+    "integrations": [],
+    "deadlines": [
+      {
+        "text": "website must go live by 15 December 2026",
+        "quote": "The website must go live by 15 December 2026.",
+        "ref": "S14"
+      }
+    ],
+    "priorities": [
+      {
+        "text": "menu and ordering pages are the highest priority",
+        "quote": "The menu and ordering pages are the highest priority.",
+        "ref": "S13"
+      }
+    ],
+    "estimates": [],
+    "terms_used": [
+      {
+        "text": "Sweet Crumbs Bakery",
+        "quote": "Sweet Crumbs Bakery",
+        "ref": "S1"
+      },
+      {
+        "text": "Lahore",
+        "quote": "Lahore",
+        "ref": "S1"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "category": "missing",
+      "issue": "customer contact information for order confirmation",
+      "quotes": [
+        "After placing an order, the customer must receive a confirmation email with an order number. (S8)"
+      ],
+      "refs": [
+        "S8"
+      ],
+      "question": "What customer contact information is required to place an order and receive the confirmation email?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-001",
+      "examples_removed": true,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"After placing an order, the customer must receive a confirmation email with an order number. (S8)\""
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "customer authentication requirement",
+      "quotes": [
+        "The website is for customers who want to order cakes and pastries for pickup. (S2)"
+      ],
+      "refs": [
+        "S2"
+      ],
+      "question": "Do customers need to create an account or log in to place an order, or can they order as guests?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-002",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"The website is for customers who want to order cakes and pastries for pickup. (S2)\""
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "staff authentication requirement",
+      "quotes": [
+        "The bakery staff need an admin page to view all orders for a selected date. (S9)"
+      ],
+      "refs": [
+        "S9"
+      ],
+      "question": "Will staff members need to authenticate to access the admin page, and if so, what authentication method is required?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-003",
+      "examples_removed": true,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"The bakery staff need an admin page to view all orders for a selected date. (S9)\""
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "pickup date range",
+      "quotes": [
+        "Customers must choose a pickup date and a pickup time slot when placing an order. (S5)"
+      ],
+      "refs": [
+        "S5"
+      ],
+      "question": "What is the allowed range of pickup dates that customers can select?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-004",
+      "examples_removed": true,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"Customers must choose a pickup date and a pickup time slot when placing an order. (S5)\""
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "email service provider",
+      "quotes": [
+        "After placing an order, the customer must receive a confirmation email with an order number. (S8)"
+      ],
+      "refs": [
+        "S8"
+      ],
+      "question": "Which email service or provider will be used to send the order confirmation emails?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-005",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"After placing an order, the customer must receive a confirmation email with an order number. (S8)\""
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "priority level description",
+      "quotes": [
+        "The menu and ordering pages are the highest priority. (S13)"
+      ],
+      "refs": [
+        "S13"
+      ],
+      "question": "What does \"highest priority\" mean in terms of development sequencing and feature completion?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-006",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"The menu and ordering pages are the highest priority. (S13)\""
+      ]
+    },
+    {
+      "category": "scope_gap",
+      "issue": "customer order status visibility",
+      "quotes": [
+        "After placing an order, the customer must receive a confirmation email with an order number. (S8)"
+      ],
+      "refs": [
+        "S8"
+      ],
+      "question": "Will customers be able to view the status of their order on the website after placing it?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-007",
+      "examples_removed": true,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "warnings": [
+        "UNVERIFIED quote \"After placing an order, the customer must receive a confirmation email with an order number. (S8)\""
+      ]
+    }
+  ],
+  "plan": {
+    "epics": [
+      {
+        "title": "Admin Management",
+        "description": "Provide staff interface to manage orders and menu",
+        "source": {
+          "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+          "ref": "S9"
+        },
+        "tasks": [
+          {
+            "key": "T6",
+            "title": "Create admin order list view",
+            "type": "Story",
+            "covers": [
+              "F7"
+            ],
+            "description": "Show all orders for a selected date",
+            "acceptance_criteria": [
+              {
+                "criterion": "The bakery staff need an admin page to view all orders for a selected date",
+                "quote": "The bakery staff need an admin page to view all orders for a selected date",
+                "ref": "S9"
+              }
+            ],
+            "source": {
+              "quote": "The bakery staff need an admin page to view all orders for a selected date",
+              "ref": "S9"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-003"
+            ],
+            "priority": null,
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T7",
+            "title": "Implement order status updates",
+            "type": "Story",
+            "covers": [
+              "F8"
+            ],
+            "description": "Allow staff to mark orders as \"Ready\" or \"Collected\"",
+            "acceptance_criteria": [
+              {
+                "criterion": "Staff must be able to mark an order as \"Ready\" or \"Collected\"",
+                "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\"",
+                "ref": "S10"
+              }
+            ],
+            "source": {
+              "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\"",
+              "ref": "S10"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": null,
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T8",
+            "title": "Admin menu CRUD",
+            "type": "Story",
+            "covers": [
+              "F9"
+            ],
+            "description": "Enable staff to add, edit and remove menu products from the admin page",
+            "acceptance_criteria": [
+              {
+                "criterion": "Staff must be able to add, edit and remove menu products from the admin page",
+                "quote": "Staff must be able to add, edit and remove menu products from the admin page",
+                "ref": "S11"
+              }
+            ],
+            "source": {
+              "quote": "Staff must be able to add, edit and remove menu products from the admin page",
+              "ref": "S11"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": null,
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          }
+        ]
+      },
+      {
+        "title": "Menu and Ordering",
+        "description": "Menu and ordering pages are the highest priority",
+        "source": {
+          "quote": "The menu and ordering pages are the highest priority.",
+          "ref": "S13"
+        },
+        "tasks": [
+          {
+            "key": "T1",
+            "title": "Implement product menu display",
+            "type": "Story",
+            "covers": [
+              "F1"
+            ],
+            "description": "Display a menu of products with a name, photo, price and description for each item",
+            "acceptance_criteria": [
+              {
+                "criterion": "Customers must be able to browse a menu of products with a name, photo, price and description for each item",
+                "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item",
+                "ref": "S3"
+              }
+            ],
+            "source": {
+              "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item",
+              "ref": "S3"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T2",
+            "title": "Add products to cart and adjust quantity",
+            "type": "Story",
+            "covers": [
+              "F2"
+            ],
+            "description": "Allow customers to add products to a cart and change the quantity of each item",
+            "acceptance_criteria": [
+              {
+                "criterion": "Customers must be able to add products to a cart and change the quantity of each item",
+                "quote": "Customers must be able to add products to a cart and change the quantity of each item",
+                "ref": "S4"
+              }
+            ],
+            "source": {
+              "quote": "Customers must be able to add products to a cart and change the quantity of each item",
+              "ref": "S4"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T3",
+            "title": "Select pickup date and time slot",
+            "type": "Story",
+            "covers": [
+              "F3"
+            ],
+            "description": "Enable customers to choose a pickup date and a pickup time slot when placing an order",
+            "acceptance_criteria": [
+              {
+                "criterion": "Customers must choose a pickup date and a pickup time slot when placing an order",
+                "quote": "Customers must choose a pickup date and a pickup time slot when placing an order",
+                "ref": "S5"
+              }
+            ],
+            "source": {
+              "quote": "Customers must choose a pickup date and a pickup time slot when placing an order",
+              "ref": "S5"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T4",
+            "title": "Generate pickup time slots",
+            "type": "Story",
+            "covers": [
+              "F4"
+            ],
+            "description": "Provide pickup time slots every 30 minutes between 10:00 AM and 8:00 PM",
+            "acceptance_criteria": [
+              {
+                "criterion": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+                "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+                "ref": "S6"
+              }
+            ],
+            "source": {
+              "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+              "ref": "S6"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T5",
+            "title": "Handle cash on pickup payment",
+            "type": "Story",
+            "covers": [
+              "F5"
+            ],
+            "description": "Implement payment as cash on pickup only; no online payment is needed",
+            "acceptance_criteria": [
+              {
+                "criterion": "Payment is cash on pickup only; no online payment is needed",
+                "quote": "Payment is cash on pickup only; no online payment is needed",
+                "ref": "S7"
+              }
+            ],
+            "source": {
+              "quote": "Payment is cash on pickup only; no online payment is needed",
+              "ref": "S7"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          },
+          {
+            "key": "T9",
+            "title": "Send order confirmation email",
+            "type": "Story",
+            "covers": [
+              "F6"
+            ],
+            "description": "After placing an order, the customer must receive a confirmation email with an order number",
+            "acceptance_criteria": [
+              {
+                "criterion": "After placing an order, the customer must receive a confirmation email with an order number",
+                "quote": "After placing an order, the customer must receive a confirmation email with an order number",
+                "ref": "S8"
+              }
+            ],
+            "source": {
+              "quote": "After placing an order, the customer must receive a confirmation email with an order number",
+              "ref": "S8"
+            },
+            "depends_on": [],
+            "question_ids": [],
+            "priority": {
+              "value": "menu and ordering pages are the highest priority",
+              "quote": "The menu and ordering pages are the highest priority",
+              "ref": "S13"
+            },
+            "deadline": {
+              "value": "15 December 2026",
+              "quote": "The website must go live by 15 December 2026",
+              "ref": "S14"
+            },
+            "estimate": null
+          }
+        ]
+      }
+    ],
+    "work_items": [
+      {
+        "id": "F1",
+        "text": "browse a menu of products with a name, photo, price and description for each item",
+        "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+        "ref": "S3"
+      },
+      {
+        "id": "F2",
+        "text": "add products to a cart and change the quantity of each item",
+        "quote": "Customers must be able to add products to a cart and change the quantity of each item.",
+        "ref": "S4"
+      },
+      {
+        "id": "F3",
+        "text": "choose a pickup date and a pickup time slot when placing an order",
+        "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+        "ref": "S5"
+      },
+      {
+        "id": "F4",
+        "text": "pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+        "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.",
+        "ref": "S6"
+      },
+      {
+        "id": "F5",
+        "text": "payment is cash on pickup only; no online payment is needed",
+        "quote": "Payment is cash on pickup only; no online payment is needed.",
+        "ref": "S7"
+      },
+      {
+        "id": "F6",
+        "text": "after placing an order, the customer must receive a confirmation email with an order number",
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+        "ref": "S8"
+      },
+      {
+        "id": "F7",
+        "text": "admin page to view all orders for a selected date",
+        "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+        "ref": "S9"
+      },
+      {
+        "id": "F8",
+        "text": "mark an order as \"Ready\" or \"Collected\"",
+        "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\".",
+        "ref": "S10"
+      },
+      {
+        "id": "F9",
+        "text": "add, edit and remove menu products from the admin page",
+        "quote": "Staff must be able to add, edit and remove menu products from the admin page.",
+        "ref": "S11"
+      }
+    ],
+    "coverage": {
+      "work_items": 9,
+      "uncovered_first_try": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "repair_attempted": true,
+      "uncovered": []
+    }
+  },
+  "tickets": [
+    {
+      "ticket_id": "TASK-001",
+      "title": "Admin Management",
+      "type": "Epic",
+      "parent": "",
+      "description": "Provide staff interface to manage orders and menu",
+      "acceptance_criteria": [
+        {
+          "criterion": "The website must be available in English only.",
+          "quote": "The website must be available in English only.",
+          "ref": "S12",
+          "project_constraint": true
+        },
+        {
+          "criterion": "The website must go live by 15 December 2026.",
+          "quote": "The website must go live by 15 December 2026.",
+          "ref": "S14",
+          "project_constraint": true
+        }
+      ],
+      "source_reference": "S9: \"The bakery staff need an admin page to view all orders for a selected date.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [],
+      "warnings": [],
+      "notes": [
+        "Constraint S12 was on no task: added as a project constraint (\"The website must be available in English only.\")",
+        "Constraint S14 was on no task: added as a project constraint (\"The website must go live by 15 December 2026.\")"
+      ],
+      "children": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004"
+      ],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-002",
+      "title": "Create admin order list view",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Show all orders for a selected date",
+      "acceptance_criteria": [
+        {
+          "criterion": "The bakery staff need an admin page to view all orders for a selected date",
+          "quote": "The bakery staff need an admin page to view all orders for a selected date",
+          "ref": "S9"
+        }
+      ],
+      "source_reference": "S9: \"The bakery staff need an admin page to view all orders for a selected date\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-003",
+        "Q-001",
+        "Q-002",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F7"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-003",
+      "title": "Implement order status updates",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Allow staff to mark orders as \"Ready\" or \"Collected\"",
+      "acceptance_criteria": [
+        {
+          "criterion": "Staff must be able to mark an order as \"Ready\" or \"Collected\"",
+          "quote": "Staff must be able to mark an order as \"Ready\" or \"Collected\"",
+          "ref": "S10"
+        }
+      ],
+      "source_reference": "S10: \"Staff must be able to mark an order as \"Ready\" or \"Collected\"\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F8"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-004",
+      "title": "Admin menu CRUD",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Enable staff to add, edit and remove menu products from the admin page",
+      "acceptance_criteria": [
+        {
+          "criterion": "Staff must be able to add, edit and remove menu products from the admin page",
+          "quote": "Staff must be able to add, edit and remove menu products from the admin page",
+          "ref": "S11"
+        }
+      ],
+      "source_reference": "S11: \"Staff must be able to add, edit and remove menu products from the admin page\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F9"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-005",
+      "title": "Menu and Ordering",
+      "type": "Epic",
+      "parent": "",
+      "description": "Menu and ordering pages are the highest priority",
+      "acceptance_criteria": [
+        {
+          "criterion": "The website must be available in English only.",
+          "quote": "The website must be available in English only.",
+          "ref": "S12",
+          "project_constraint": true
+        },
+        {
+          "criterion": "The website must go live by 15 December 2026.",
+          "quote": "The website must go live by 15 December 2026.",
+          "ref": "S14",
+          "project_constraint": true
+        }
+      ],
+      "source_reference": "S13: \"The menu and ordering pages are the highest priority.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [],
+      "warnings": [],
+      "notes": [
+        "Constraint S12 was on no task: added as a project constraint (\"The website must be available in English only.\")",
+        "Constraint S14 was on no task: added as a project constraint (\"The website must go live by 15 December 2026.\")"
+      ],
+      "children": [
+        "TASK-006",
+        "TASK-007",
+        "TASK-008",
+        "TASK-009",
+        "TASK-010",
+        "TASK-011"
+      ],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-006",
+      "title": "Implement product menu display",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "Display a menu of products with a name, photo, price and description for each item",
+      "acceptance_criteria": [
+        {
+          "criterion": "Customers must be able to browse a menu of products with a name, photo, price and description for each item",
+          "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item",
+          "ref": "S3"
+        }
+      ],
+      "source_reference": "S3: \"Customers must be able to browse a menu of products with a name, photo, price and description for each item\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F1"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-007",
+      "title": "Add products to cart and adjust quantity",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "Allow customers to add products to a cart and change the quantity of each item",
+      "acceptance_criteria": [
+        {
+          "criterion": "Customers must be able to add products to a cart and change the quantity of each item",
+          "quote": "Customers must be able to add products to a cart and change the quantity of each item",
+          "ref": "S4"
+        }
+      ],
+      "source_reference": "S4: \"Customers must be able to add products to a cart and change the quantity of each item\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F2"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-008",
+      "title": "Select pickup date and time slot",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "Enable customers to choose a pickup date and a pickup time slot when placing an order",
+      "acceptance_criteria": [
+        {
+          "criterion": "Customers must choose a pickup date and a pickup time slot when placing an order",
+          "quote": "Customers must choose a pickup date and a pickup time slot when placing an order",
+          "ref": "S5"
+        }
+      ],
+      "source_reference": "S5: \"Customers must choose a pickup date and a pickup time slot when placing an order\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F3"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-009",
+      "title": "Generate pickup time slots",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "Provide pickup time slots every 30 minutes between 10:00 AM and 8:00 PM",
+      "acceptance_criteria": [
+        {
+          "criterion": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+          "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM",
+          "ref": "S6"
+        }
+      ],
+      "source_reference": "S6: \"Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F4"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-010",
+      "title": "Handle cash on pickup payment",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "Implement payment as cash on pickup only; no online payment is needed",
+      "acceptance_criteria": [
+        {
+          "criterion": "Payment is cash on pickup only; no online payment is needed",
+          "quote": "Payment is cash on pickup only; no online payment is needed",
+          "ref": "S7"
+        }
+      ],
+      "source_reference": "S7: \"Payment is cash on pickup only; no online payment is needed\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F5"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-011",
+      "title": "Send order confirmation email",
+      "type": "Story",
+      "parent": "TASK-005",
+      "description": "After placing an order, the customer must receive a confirmation email with an order number",
+      "acceptance_criteria": [
+        {
+          "criterion": "After placing an order, the customer must receive a confirmation email with an order number",
+          "quote": "After placing an order, the customer must receive a confirmation email with an order number",
+          "ref": "S8"
+        }
+      ],
+      "source_reference": "S8: \"After placing an order, the customer must receive a confirmation email with an order number\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "Q-004",
+        "Q-005",
+        "Q-006",
+        "Q-007"
+      ],
+      "priority": "menu and ordering pages are the highest priority (S13: \"The menu and ordering pages are the highest priority\")",
+      "estimate": "Not specified",
+      "deadline": "15 December 2026 (S14: \"The website must go live by 15 December 2026\")",
+      "covers": [
+        "F6"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    }
+  ],
+  "verification": {
+    "summary": {
+      "quotes_checked": 64,
+      "ai_values_rejected": 0,
+      "criteria_replaced_with_brief_words": 0,
+      "issues": 7,
+      "tickets_ready": 0,
+      "tickets_need_clarification": 11,
+      "uncovered_work_items": [],
+      "unused_sentences": [],
+      "passed": false
+    },
+    "issues": [
+      {
+        "where": "question Q-001",
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number. (S8)",
+        "ref": [
+          "S8"
+        ],
+        "status": "not_found",
+        "detail": "\"After placing an order, the customer must receive a confirmation email with an order number. (S8)\" is not in the brief"
+      },
+      {
+        "where": "question Q-002",
+        "quote": "The website is for customers who want to order cakes and pastries for pickup. (S2)",
+        "ref": [
+          "S2"
+        ],
+        "status": "not_found",
+        "detail": "\"The website is for customers who want to order cakes and pastries for pickup. (S2)\" is not in the brief"
+      },
+      {
+        "where": "question Q-003",
+        "quote": "The bakery staff need an admin page to view all orders for a selected date. (S9)",
+        "ref": [
+          "S9"
+        ],
+        "status": "not_found",
+        "detail": "\"The bakery staff need an admin page to view all orders for a selected date. (S9)\" is not in the brief"
+      },
+      {
+        "where": "question Q-004",
+        "quote": "Customers must choose a pickup date and a pickup time slot when placing an order. (S5)",
+        "ref": [
+          "S5"
+        ],
+        "status": "not_found",
+        "detail": "\"Customers must choose a pickup date and a pickup time slot when placing an order. (S5)\" is not in the brief"
+      },
+      {
+        "where": "question Q-005",
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number. (S8)",
+        "ref": [
+          "S8"
+        ],
+        "status": "not_found",
+        "detail": "\"After placing an order, the customer must receive a confirmation email with an order number. (S8)\" is not in the brief"
+      },
+      {
+        "where": "question Q-006",
+        "quote": "The menu and ordering pages are the highest priority. (S13)",
+        "ref": [
+          "S13"
+        ],
+        "status": "not_found",
+        "detail": "\"The menu and ordering pages are the highest priority. (S13)\" is not in the brief"
+      },
+      {
+        "where": "question Q-007",
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number. (S8)",
+        "ref": [
+          "S8"
+        ],
+        "status": "not_found",
+        "detail": "\"After placing an order, the customer must receive a confirmation email with an order number. (S8)\" is not in the brief"
+      }
+    ]
+  }
+}

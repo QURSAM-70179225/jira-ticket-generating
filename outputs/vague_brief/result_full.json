@@ -1,0 +1,1091 @@
+{
+  "meta": {
+    "model": "openai/gpt-oss-20b",
+    "generated_at": "2026-11-05T07:01:59+00:00"
+  },
+  "brief": "We are FitNow and we want a modern fitness app for our members.\nIt should be fast and user-friendly.\nMembers should be able to book classes and see their workout history.\nWe need this as a mobile app for iPhone and Android.\nTrainers can create workout plans for members.\nMembers should be able to pay online for memberships.\nThe app must sync with our MBS system so member data stays up to date.\nIt should be secure.\nLater in the year we also want a leaderboard to keep people motivated.\nTo keep costs low, this should be a web-only product, no app store apps.\nAdmins should get reports.\nWe want to launch soon.",
+  "sentences": [
+    {
+      "ref": "S1",
+      "text": "We are FitNow and we want a modern fitness app for our members."
+    },
+    {
+      "ref": "S2",
+      "text": "It should be fast and user-friendly."
+    },
+    {
+      "ref": "S3",
+      "text": "Members should be able to book classes and see their workout history."
+    },
+    {
+      "ref": "S4",
+      "text": "We need this as a mobile app for iPhone and Android."
+    },
+    {
+      "ref": "S5",
+      "text": "Trainers can create workout plans for members."
+    },
+    {
+      "ref": "S6",
+      "text": "Members should be able to pay online for memberships."
+    },
+    {
+      "ref": "S7",
+      "text": "The app must sync with our MBS system so member data stays up to date."
+    },
+    {
+      "ref": "S8",
+      "text": "It should be secure."
+    },
+    {
+      "ref": "S9",
+      "text": "Later in the year we also want a leaderboard to keep people motivated."
+    },
+    {
+      "ref": "S10",
+      "text": "To keep costs low, this should be a web-only product, no app store apps."
+    },
+    {
+      "ref": "S11",
+      "text": "Admins should get reports."
+    },
+    {
+      "ref": "S12",
+      "text": "We want to launch soon."
+    }
+  ],
+  "facts": {
+    "goals": [
+      {
+        "text": "modern fitness app",
+        "quote": "We are FitNow and we want a modern fitness app for our members.",
+        "ref": "S1"
+      }
+    ],
+    "users": [
+      {
+        "text": "members",
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      {
+        "text": "members",
+        "quote": "Members should be able to pay online for memberships.",
+        "ref": "S6"
+      },
+      {
+        "text": "trainers",
+        "quote": "Trainers can create workout plans for members.",
+        "ref": "S5"
+      },
+      {
+        "text": "admins",
+        "quote": "Admins should get reports.",
+        "ref": "S11"
+      }
+    ],
+    "features": [
+      {
+        "text": "book classes",
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      {
+        "text": "see workout history",
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      {
+        "text": "create workout plans",
+        "quote": "Trainers can create workout plans for members.",
+        "ref": "S5"
+      },
+      {
+        "text": "pay online for memberships",
+        "quote": "Members should be able to pay online for memberships.",
+        "ref": "S6"
+      },
+      {
+        "text": "sync with MBS system",
+        "quote": "The app must sync with our MBS system so member data stays up to date.",
+        "ref": "S7"
+      },
+      {
+        "text": "leaderboard",
+        "quote": "Later in the year we also want a leaderboard to keep people motivated.",
+        "ref": "S9"
+      }
+    ],
+    "constraints": [
+      {
+        "text": "mobile app for iPhone and Android",
+        "quote": "We need this as a mobile app for iPhone and Android.",
+        "ref": "S4"
+      },
+      {
+        "text": "web-only product, no app store apps",
+        "quote": "To keep costs low, this should be a web-only product, no app store apps.",
+        "ref": "S10"
+      }
+    ],
+    "quality_requirements": [
+      {
+        "text": "fast",
+        "quote": "It should be fast and user-friendly.",
+        "ref": "S2"
+      },
+      {
+        "text": "user-friendly",
+        "quote": "It should be fast and user-friendly.",
+        "ref": "S2"
+      },
+      {
+        "text": "secure",
+        "quote": "It should be secure.",
+        "ref": "S8"
+      }
+    ],
+    "integrations": [
+      {
+        "text": "MBS system",
+        "quote": "The app must sync with our MBS system so member data stays up to date.",
+        "ref": "S7"
+      }
+    ],
+    "deadlines": [
+      {
+        "text": "launch soon",
+        "quote": "We want to launch soon.",
+        "ref": "S12"
+      }
+    ],
+    "priorities": [],
+    "estimates": [],
+    "terms_used": [
+      {
+        "text": "FitNow",
+        "quote": "We are FitNow and we want a modern fitness app for our members.",
+        "ref": "S1"
+      },
+      {
+        "text": "MBS",
+        "quote": "The app must sync with our MBS system so member data stays up to date.",
+        "ref": "S7"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "category": "contradiction",
+      "issue": "Platform specification conflict",
+      "quotes": [
+        "We need this as a mobile app for iPhone and Android.",
+        "To keep costs low, this should be a web-only product, no app store apps."
+      ],
+      "refs": [
+        "S4",
+        "S10"
+      ],
+      "question": "Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-001",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "Launch deadline",
+      "quotes": [
+        "We want to launch soon."
+      ],
+      "refs": [
+        "S12"
+      ],
+      "question": "What is the target launch date for the project?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-002",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "Payment methods",
+      "quotes": [
+        "Members should be able to pay online for memberships."
+      ],
+      "refs": [
+        "S6"
+      ],
+      "question": "Which payment methods are required for online membership payments?",
+      "affects": [
+        "pay online for memberships"
+      ],
+      "id": "Q-003",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-005"
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "Member access",
+      "quotes": [
+        "Members should be able to book classes and see their workout history.",
+        "Members should be able to pay online for memberships."
+      ],
+      "refs": [
+        "S3",
+        "S6"
+      ],
+      "question": "How should members access the app? Do they need an account or login?",
+      "affects": [
+        "book classes",
+        "see workout history",
+        "pay online for memberships"
+      ],
+      "id": "Q-004",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-005"
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "Trainer access",
+      "quotes": [
+        "Trainers can create workout plans for members."
+      ],
+      "refs": [
+        "S5"
+      ],
+      "question": "How should trainers access the system? Do they need an account or login?",
+      "affects": [
+        "create workout plans"
+      ],
+      "id": "Q-005",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-004"
+      ]
+    },
+    {
+      "category": "missing",
+      "issue": "Admin access",
+      "quotes": [
+        "Admins should get reports."
+      ],
+      "refs": [
+        "S11"
+      ],
+      "question": "How should admins access the system? Do they need an account or login?",
+      "affects": [
+        "Admins should get reports"
+      ],
+      "id": "Q-006",
+      "examples_removed": false,
+      "link_type": "fallback (no matching task)",
+      "blocks": [
+        "TASK-001"
+      ]
+    },
+    {
+      "category": "undefined_term",
+      "issue": "MBS system definition",
+      "quotes": [
+        "The app must sync with our MBS system so member data stays up to date."
+      ],
+      "refs": [
+        "S7"
+      ],
+      "question": "What is the MBS system and what data does it provide?",
+      "affects": [
+        "sync with MBS system"
+      ],
+      "id": "Q-007",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-006"
+      ]
+    },
+    {
+      "category": "scope_gap",
+      "issue": "Leaderboard rules",
+      "quotes": [
+        "Later in the year we also want a leaderboard to keep people motivated."
+      ],
+      "refs": [
+        "S9"
+      ],
+      "question": "What are the rules and criteria for the leaderboard?",
+      "affects": [
+        "leaderboard"
+      ],
+      "id": "Q-008",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "scope_gap",
+      "issue": "Class booking details",
+      "quotes": [
+        "Members should be able to book classes and see their workout history."
+      ],
+      "refs": [
+        "S3"
+      ],
+      "question": "What information is required to book a class?",
+      "affects": [
+        "book classes"
+      ],
+      "id": "Q-009",
+      "examples_removed": true,
+      "link_type": "task",
+      "blocks": [
+        "TASK-002"
+      ]
+    },
+    {
+      "category": "scope_gap",
+      "issue": "Payment details",
+      "quotes": [
+        "Members should be able to pay online for memberships."
+      ],
+      "refs": [
+        "S6"
+      ],
+      "question": "What currency and tax rules should be applied to membership payments?",
+      "affects": [
+        "pay online for memberships"
+      ],
+      "id": "Q-010",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-005"
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "Modern",
+      "quotes": [
+        "We are FitNow and we want a modern fitness app for our members."
+      ],
+      "refs": [
+        "S1"
+      ],
+      "question": "What does 'modern' mean in terms of design or features?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-011",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "Fast",
+      "quotes": [
+        "It should be fast and user-friendly."
+      ],
+      "refs": [
+        "S2"
+      ],
+      "question": "What performance expectations define 'fast' for the app?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-012",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "User-friendly",
+      "quotes": [
+        "It should be fast and user-friendly."
+      ],
+      "refs": [
+        "S2"
+      ],
+      "question": "What criteria define 'user-friendly' for the app?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-013",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "Secure",
+      "quotes": [
+        "It should be secure."
+      ],
+      "refs": [
+        "S8"
+      ],
+      "question": "What security requirements must the app meet?",
+      "affects": [
+        "GENERAL"
+      ],
+      "id": "Q-014",
+      "examples_removed": false,
+      "link_type": "project-wide",
+      "blocks": [
+        "TASK-001",
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ]
+    },
+    {
+      "category": "vague",
+      "issue": "Later",
+      "quotes": [
+        "Later in the year we also want a leaderboard to keep people motivated."
+      ],
+      "refs": [
+        "S9"
+      ],
+      "question": "When exactly do you want the leaderboard feature to be available?",
+      "affects": [
+        "leaderboard"
+      ],
+      "id": "Q-015",
+      "examples_removed": false,
+      "link_type": "task",
+      "blocks": [
+        "TASK-007"
+      ]
+    }
+  ],
+  "plan": {
+    "epics": [
+      {
+        "title": "Core Features",
+        "description": "Implement the main functionality required for members, trainers and admins as described in the brief",
+        "source": {
+          "quote": "We are FitNow and we want a modern fitness app for our members.",
+          "ref": "S1"
+        },
+        "tasks": [
+          {
+            "key": "T1",
+            "title": "Book Classes",
+            "type": "Story",
+            "covers": [
+              "F1"
+            ],
+            "description": "Members should be able to book classes",
+            "acceptance_criteria": [
+              {
+                "criterion": "Members should be able to book classes",
+                "quote": "Members should be able to book classes and see their workout history.",
+                "ref": "S3"
+              }
+            ],
+            "source": {
+              "quote": "Members should be able to book classes and see their workout history.",
+              "ref": "S3"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-009"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          },
+          {
+            "key": "T2",
+            "title": "View Workout History",
+            "type": "Story",
+            "covers": [
+              "F2"
+            ],
+            "description": "Members should be able to see their workout history",
+            "acceptance_criteria": [
+              {
+                "criterion": "Members should be able to see their workout history",
+                "quote": "Members should be able to book classes and see their workout history.",
+                "ref": "S3"
+              }
+            ],
+            "source": {
+              "quote": "Members should be able to book classes and see their workout history.",
+              "ref": "S3"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-004"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          },
+          {
+            "key": "T3",
+            "title": "Create Workout Plans",
+            "type": "Story",
+            "covers": [
+              "F3"
+            ],
+            "description": "Trainers can create workout plans for members",
+            "acceptance_criteria": [
+              {
+                "criterion": "Trainers can create workout plans for members",
+                "quote": "Trainers can create workout plans for members.",
+                "ref": "S5"
+              }
+            ],
+            "source": {
+              "quote": "Trainers can create workout plans for members.",
+              "ref": "S5"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-005"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          },
+          {
+            "key": "T4",
+            "title": "Pay Online for Memberships",
+            "type": "Story",
+            "covers": [
+              "F4"
+            ],
+            "description": "Members should be able to pay online for memberships",
+            "acceptance_criteria": [
+              {
+                "criterion": "Members should be able to pay online for memberships",
+                "quote": "Members should be able to pay online for memberships.",
+                "ref": "S6"
+              }
+            ],
+            "source": {
+              "quote": "Members should be able to pay online for memberships.",
+              "ref": "S6"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-003",
+              "Q-010",
+              "Q-004"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          },
+          {
+            "key": "T5",
+            "title": "Sync with MBS System",
+            "type": "Story",
+            "covers": [
+              "F5"
+            ],
+            "description": "The app must sync with our MBS system so member data stays up to date",
+            "acceptance_criteria": [
+              {
+                "criterion": "The app must sync with our MBS system so member data stays up to date",
+                "quote": "The app must sync with our MBS system so member data stays up to date.",
+                "ref": "S7"
+              }
+            ],
+            "source": {
+              "quote": "The app must sync with our MBS system so member data stays up to date.",
+              "ref": "S7"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-007"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          },
+          {
+            "key": "T6",
+            "title": "Implement Leaderboard",
+            "type": "Story",
+            "covers": [
+              "F6"
+            ],
+            "description": "Build the leaderboard feature to keep people motivated",
+            "acceptance_criteria": [],
+            "source": {
+              "quote": "Later in the year we also want a leaderboard to keep people motivated.",
+              "ref": "S9"
+            },
+            "depends_on": [],
+            "question_ids": [
+              "Q-001",
+              "Q-008",
+              "Q-012",
+              "Q-013",
+              "Q-014"
+            ],
+            "priority": null,
+            "deadline": null,
+            "estimate": null
+          }
+        ]
+      }
+    ],
+    "work_items": [
+      {
+        "id": "F1",
+        "text": "book classes",
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      {
+        "id": "F2",
+        "text": "see workout history",
+        "quote": "Members should be able to book classes and see their workout history.",
+        "ref": "S3"
+      },
+      {
+        "id": "F3",
+        "text": "create workout plans",
+        "quote": "Trainers can create workout plans for members.",
+        "ref": "S5"
+      },
+      {
+        "id": "F4",
+        "text": "pay online for memberships",
+        "quote": "Members should be able to pay online for memberships.",
+        "ref": "S6"
+      },
+      {
+        "id": "F5",
+        "text": "sync with MBS system",
+        "quote": "The app must sync with our MBS system so member data stays up to date.",
+        "ref": "S7"
+      },
+      {
+        "id": "F6",
+        "text": "leaderboard",
+        "quote": "Later in the year we also want a leaderboard to keep people motivated.",
+        "ref": "S9"
+      },
+      {
+        "id": "R1",
+        "text": "fast",
+        "quote": "It should be fast and user-friendly.",
+        "ref": "S2"
+      },
+      {
+        "id": "R2",
+        "text": "user-friendly",
+        "quote": "It should be fast and user-friendly.",
+        "ref": "S2"
+      },
+      {
+        "id": "R3",
+        "text": "secure",
+        "quote": "It should be secure.",
+        "ref": "S8"
+      }
+    ],
+    "coverage": {
+      "work_items": 9,
+      "uncovered_first_try": [
+        "F6",
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "repair_attempted": true,
+      "uncovered": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    }
+  },
+  "tickets": [
+    {
+      "ticket_id": "TASK-001",
+      "title": "Core Features",
+      "type": "Epic",
+      "parent": "",
+      "description": "Implement the main functionality required for members, trainers and admins as described in the brief",
+      "acceptance_criteria": [
+        {
+          "criterion": "We need this as a mobile app for iPhone and Android.",
+          "quote": "We need this as a mobile app for iPhone and Android.",
+          "ref": "S4",
+          "project_constraint": true
+        },
+        {
+          "criterion": "To keep costs low, this should be a web-only product, no app store apps.",
+          "quote": "To keep costs low, this should be a web-only product, no app store apps.",
+          "ref": "S10",
+          "project_constraint": true
+        }
+      ],
+      "source_reference": "S1: \"We are FitNow and we want a modern fitness app for our members.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-002",
+        "Q-006",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [],
+      "warnings": [],
+      "notes": [
+        "Constraint S4 was on no task: added as a project constraint (\"We need this as a mobile app for iPhone and Android.\")",
+        "Constraint S10 was on no task: added as a project constraint (\"To keep costs low, this should be a web-only product, no app store apps.\")"
+      ],
+      "children": [
+        "TASK-002",
+        "TASK-003",
+        "TASK-004",
+        "TASK-005",
+        "TASK-006",
+        "TASK-007"
+      ],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-002",
+      "title": "Book Classes",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Members should be able to book classes",
+      "acceptance_criteria": [
+        {
+          "criterion": "Members should be able to book classes",
+          "quote": "Members should be able to book classes and see their workout history.",
+          "ref": "S3"
+        }
+      ],
+      "source_reference": "S3: \"Members should be able to book classes and see their workout history.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-009",
+        "Q-001",
+        "Q-002",
+        "Q-004",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F1"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "8 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-003",
+      "title": "View Workout History",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Members should be able to see their workout history",
+      "acceptance_criteria": [
+        {
+          "criterion": "Members should be able to book classes and see their workout history.",
+          "quote": "Members should be able to book classes and see their workout history.",
+          "ref": "S3"
+        }
+      ],
+      "source_reference": "S3: \"Members should be able to book classes and see their workout history.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-004",
+        "Q-001",
+        "Q-002",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F2"
+      ],
+      "warnings": [],
+      "notes": [
+        "Criterion reworded by the AI was replaced by the brief's words: \"Members should be able to see their workout history\" -> \"Members should be able to book classes and see their workout history.\""
+      ],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-004",
+      "title": "Create Workout Plans",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Trainers can create workout plans for members",
+      "acceptance_criteria": [
+        {
+          "criterion": "Trainers can create workout plans for members",
+          "quote": "Trainers can create workout plans for members.",
+          "ref": "S5"
+        }
+      ],
+      "source_reference": "S5: \"Trainers can create workout plans for members.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-005",
+        "Q-001",
+        "Q-002",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F3"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-005",
+      "title": "Pay Online for Memberships",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Members should be able to pay online for memberships",
+      "acceptance_criteria": [
+        {
+          "criterion": "Members should be able to pay online for memberships",
+          "quote": "Members should be able to pay online for memberships.",
+          "ref": "S6"
+        }
+      ],
+      "source_reference": "S6: \"Members should be able to pay online for memberships.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-003",
+        "Q-010",
+        "Q-004",
+        "Q-001",
+        "Q-002",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F4"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "9 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-006",
+      "title": "Sync with MBS System",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "The app must sync with our MBS system so member data stays up to date",
+      "acceptance_criteria": [
+        {
+          "criterion": "The app must sync with our MBS system so member data stays up to date",
+          "quote": "The app must sync with our MBS system so member data stays up to date.",
+          "ref": "S7"
+        }
+      ],
+      "source_reference": "S7: \"The app must sync with our MBS system so member data stays up to date.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-007",
+        "Q-001",
+        "Q-002",
+        "Q-011",
+        "Q-012",
+        "Q-013",
+        "Q-014"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F5"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "7 open question(s)"
+    },
+    {
+      "ticket_id": "TASK-007",
+      "title": "Implement Leaderboard",
+      "type": "Story",
+      "parent": "TASK-001",
+      "description": "Build the leaderboard feature to keep people motivated",
+      "acceptance_criteria": [],
+      "source_reference": "S9: \"Later in the year we also want a leaderboard to keep people motivated.\"",
+      "dependencies": [],
+      "open_questions": [
+        "Q-001",
+        "Q-008",
+        "Q-012",
+        "Q-013",
+        "Q-014",
+        "Q-002",
+        "Q-011",
+        "Q-015"
+      ],
+      "priority": "Not specified",
+      "estimate": "Not specified",
+      "deadline": "Not specified",
+      "covers": [
+        "F6"
+      ],
+      "warnings": [],
+      "notes": [],
+      "status": "Needs clarification",
+      "status_reason": "8 open question(s); no testable acceptance criteria in the brief"
+    }
+  ],
+  "verification": {
+    "summary": {
+      "quotes_checked": 51,
+      "ai_values_rejected": 0,
+      "criteria_replaced_with_brief_words": 1,
+      "issues": 7,
+      "tickets_ready": 0,
+      "tickets_need_clarification": 7,
+      "uncovered_work_items": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "unused_sentences": [
+        "S2",
+        "S8",
+        "S12"
+      ],
+      "passed": false
+    },
+    "issues": [
+      {
+        "where": "question Q-006 affects",
+        "status": "unknown_feature",
+        "detail": "\"Admins should get reports\" is not an extracted feature"
+      },
+      {
+        "where": "work item R1",
+        "status": "uncovered",
+        "detail": "no task covers this feature/requirement"
+      },
+      {
+        "where": "work item R2",
+        "status": "uncovered",
+        "detail": "no task covers this feature/requirement"
+      },
+      {
+        "where": "work item R3",
+        "status": "uncovered",
+        "detail": "no task covers this feature/requirement"
+      },
+      {
+        "where": "brief sentence S2",
+        "status": "sentence_unused",
+        "detail": "\"It should be fast and user-friendly.\" does not appear on any ticket - review by hand"
+      },
+      {
+        "where": "brief sentence S8",
+        "status": "sentence_unused",
+        "detail": "\"It should be secure.\" does not appear on any ticket - review by hand"
+      },
+      {
+        "where": "brief sentence S12",
+        "status": "sentence_unused",
+        "detail": "\"We want to launch soon.\" does not appear on any ticket - review by hand"
+      }
+    ]
+  }
+}

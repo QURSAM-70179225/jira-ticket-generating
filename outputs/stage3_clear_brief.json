@@ -1,0 +1,181 @@
+{
+  "epics": [
+    {
+      "title": "Customer Menu and Ordering",
+      "description": "Covers browsing the menu, adding items to a cart, selecting a pickup date and time slot, and cash‑on‑pickup payment.",
+      "source": {
+        "quote": "The menu and ordering pages are the highest priority.",
+        "ref": "S13"
+      },
+      "tasks": [
+        {
+          "key": "T1",
+          "title": "Display product catalog",
+          "type": "Story",
+          "description": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Each product shows its name, photo, price and description.",
+              "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+              "ref": "S3"
+            }
+          ],
+          "source": {
+            "quote": "Customers must be able to browse a menu of products with a name, photo, price and description for each item.",
+            "ref": "S3"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-001"
+          ],
+          "priority": null,
+          "deadline": null
+        },
+        {
+          "key": "T2",
+          "title": "Implement cart functionality",
+          "type": "Story",
+          "description": "Customers must be able to add products to a cart and change the quantity of each item.",
+          "acceptance_criteria": [
+            {
+              "criterion": "A product can be added to the cart and its quantity can be changed.",
+              "quote": "Customers must be able to add products to a cart and change the quantity of each item.",
+              "ref": "S4"
+            }
+          ],
+          "source": {
+            "quote": "Customers must be able to add products to a cart and change the quantity of each item.",
+            "ref": "S4"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-001"
+          ],
+          "priority": null,
+          "deadline": null
+        },
+        {
+          "key": "T3",
+          "title": "Add pickup scheduling",
+          "type": "Story",
+          "description": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+          "acceptance_criteria": [
+            {
+              "criterion": "A pickup date can be selected.",
+              "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+              "ref": "S5"
+            },
+            {
+              "criterion": "A pickup time slot can be selected.",
+              "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+              "ref": "S5"
+            },
+            {
+              "criterion": "Time slots are offered every 30 minutes between 10:00 AM and 8:00 PM.",
+              "quote": "Pickup time slots are every 30 minutes between 10:00 AM and 8:00 PM.",
+              "ref": "S6"
+            }
+          ],
+          "source": {
+            "quote": "Customers must choose a pickup date and a pickup time slot when placing an order.",
+            "ref": "S5"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-001",
+            "Q-003"
+          ],
+          "priority": null,
+          "deadline": null
+        },
+        {
+          "key": "T4",
+          "title": "Display cash‑on‑pickup payment option",
+          "type": "Story",
+          "description": "Payment is cash on pickup only; no online payment is needed.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Only a cash‑on‑pickup payment option is presented.",
+              "quote": "Payment is cash on pickup only; no online payment is needed.",
+              "ref": "S7"
+            }
+          ],
+          "source": {
+            "quote": "Payment is cash on pickup only; no online payment is needed.",
+            "ref": "S7"
+          },
+          "depends_on": [],
+          "question_ids": [],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Order Confirmation Email",
+      "description": "Send a confirmation email with an order number after the order is placed.",
+      "source": {
+        "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+        "ref": "S8"
+      },
+      "tasks": [
+        {
+          "key": "T5",
+          "title": "Send order confirmation email",
+          "type": "Story",
+          "description": "After placing an order, the customer must receive a confirmation email with an order number.",
+          "acceptance_criteria": [
+            {
+              "criterion": "An email containing the order number is sent to the customer after order placement.",
+              "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+              "ref": "S8"
+            }
+          ],
+          "source": {
+            "quote": "After placing an order, the customer must receive a confirmation email with an order number.",
+            "ref": "S8"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-004"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    },
+    {
+      "title": "Admin Order Management",
+      "description": "Admin page for staff to view orders, update status, and manage menu items.",
+      "source": {
+        "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+        "ref": "S9"
+      },
+      "tasks": [
+        {
+          "key": "T6",
+          "title": "Admin order list view",
+          "type": "Story",
+          "description": "The bakery staff need an admin page to view all orders for a selected date.",
+          "acceptance_criteria": [
+            {
+              "criterion": "Staff can select a date and see all orders scheduled for that date.",
+              "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+              "ref": "S9"
+            }
+          ],
+          "source": {
+            "quote": "The bakery staff need an admin page to view all orders for a selected date.",
+            "ref": "S9"
+          },
+          "depends_on": [],
+          "question_ids": [
+            "Q-002"
+          ],
+          "priority": null,
+          "deadline": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿Question ID,Category,Question,Issue,Quotes,Refs,Blocks tickets
+Q-001,contradiction,Which platform should the app be built for: a mobile app for iPhone and Android or a web-only product?,Platform specification conflict,"We need this as a mobile app for iPhone and Android. | To keep costs low, this should be a web-only product, no app store apps.","S4, S10","TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-002,missing,What is the target launch date for the project?,Launch deadline,We want to launch soon.,S12,"TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-003,missing,Which payment methods are required for online membership payments?,Payment methods,Members should be able to pay online for memberships.,S6,TASK-005
+Q-004,missing,How should members access the app? Do they need an account or login?,Member access,Members should be able to book classes and see their workout history. | Members should be able to pay online for memberships.,"S3, S6","TASK-002, TASK-003, TASK-005"
+Q-005,missing,How should trainers access the system? Do they need an account or login?,Trainer access,Trainers can create workout plans for members.,S5,TASK-004
+Q-006,missing,How should admins access the system? Do they need an account or login?,Admin access,Admins should get reports.,S11,TASK-001
+Q-007,undefined_term,What is the MBS system and what data does it provide?,MBS system definition,The app must sync with our MBS system so member data stays up to date.,S7,TASK-006
+Q-008,scope_gap,What are the rules and criteria for the leaderboard?,Leaderboard rules,Later in the year we also want a leaderboard to keep people motivated.,S9,TASK-007
+Q-009,scope_gap,What information is required to book a class?,Class booking details,Members should be able to book classes and see their workout history.,S3,TASK-002
+Q-010,scope_gap,What currency and tax rules should be applied to membership payments?,Payment details,Members should be able to pay online for memberships.,S6,TASK-005
+Q-011,vague,What does 'modern' mean in terms of design or features?,Modern,We are FitNow and we want a modern fitness app for our members.,S1,"TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-012,vague,What performance expectations define 'fast' for the app?,Fast,It should be fast and user-friendly.,S2,"TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-013,vague,What criteria define 'user-friendly' for the app?,User-friendly,It should be fast and user-friendly.,S2,"TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-014,vague,What security requirements must the app meet?,Secure,It should be secure.,S8,"TASK-001, TASK-002, TASK-003, TASK-004, TASK-005, TASK-006, TASK-007"
+Q-015,vague,When exactly do you want the leaderboard feature to be available?,Later,Later in the year we also want a leaderboard to keep people motivated.,S9,TASK-007

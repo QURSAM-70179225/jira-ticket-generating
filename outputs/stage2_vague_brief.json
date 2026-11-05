@@ -1,0 +1,278 @@
+[
+  {
+    "category": "vague",
+    "issue": "\"fast\" is not quantified",
+    "quotes": [
+      "fast"
+    ],
+    "refs": [
+      "S2"
+    ],
+    "question": "What performance criteria define \"fast\" for the app?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-001",
+    "examples_removed": false
+  },
+  {
+    "category": "vague",
+    "issue": "\"user-friendly\" is not defined",
+    "quotes": [
+      "user-friendly"
+    ],
+    "refs": [
+      "S2"
+    ],
+    "question": "Which usability standards or metrics should be used to ensure the app is \"user-friendly\"?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-002",
+    "examples_removed": false
+  },
+  {
+    "category": "vague",
+    "issue": "\"secure\" is not specified",
+    "quotes": [
+      "secure"
+    ],
+    "refs": [
+      "S8"
+    ],
+    "question": "What security requirements are expected for the app?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-003",
+    "examples_removed": true
+  },
+  {
+    "category": "vague",
+    "issue": "\"Later in the year\" provides no concrete timeline",
+    "quotes": [
+      "Later in the year"
+    ],
+    "refs": [
+      "S9"
+    ],
+    "question": "When exactly should the leaderboard feature be delivered?",
+    "affects": [
+      "leaderboard"
+    ],
+    "id": "Q-004",
+    "examples_removed": false
+  },
+  {
+    "category": "vague",
+    "issue": "\"soon\" does not give a specific launch date",
+    "quotes": [
+      "soon"
+    ],
+    "refs": [
+      "S12"
+    ],
+    "question": "What is the target launch date for the product?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-005",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "No concrete deadline is provided",
+    "quotes": [
+      "launch soon"
+    ],
+    "refs": [
+      "S12"
+    ],
+    "question": "What is the exact deadline for the initial launch?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-006",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "Payment methods and gateway are not specified",
+    "quotes": [
+      "pay online for memberships"
+    ],
+    "refs": [
+      "S6"
+    ],
+    "question": "Which online payment methods and providers should be supported for membership payments?",
+    "affects": [
+      "pay online for memberships"
+    ],
+    "id": "Q-007",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "Authentication method for Members is not described",
+    "quotes": [
+      "Members should be able to book classes and see their workout history."
+    ],
+    "refs": [
+      "S3"
+    ],
+    "question": "How will members authenticate to access the app?",
+    "affects": [
+      "book classes",
+      "see workout history",
+      "pay online for memberships"
+    ],
+    "id": "Q-008",
+    "examples_removed": true
+  },
+  {
+    "category": "missing",
+    "issue": "Authentication method for Trainers is not described",
+    "quotes": [
+      "Trainers can create workout plans for members."
+    ],
+    "refs": [
+      "S5"
+    ],
+    "question": "How will trainers authenticate to create workout plans?",
+    "affects": [
+      "create workout plans"
+    ],
+    "id": "Q-009",
+    "examples_removed": true
+  },
+  {
+    "category": "missing",
+    "issue": "Authentication method for Admins is not described",
+    "quotes": [
+      "Admins should get reports."
+    ],
+    "refs": [
+      "S11"
+    ],
+    "question": "How will admins log in to obtain reports?",
+    "affects": [
+      "get reports"
+    ],
+    "id": "Q-010",
+    "examples_removed": true
+  },
+  {
+    "category": "missing",
+    "issue": "Report content and format are not defined",
+    "quotes": [
+      "Admins should get reports."
+    ],
+    "refs": [
+      "S11"
+    ],
+    "question": "What types of reports are required for admins and what data should they contain?",
+    "affects": [
+      "get reports"
+    ],
+    "id": "Q-011",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "Leaderboard criteria and data sources are not defined",
+    "quotes": [
+      "leaderboard"
+    ],
+    "refs": [
+      "S9"
+    ],
+    "question": "What metrics and rules should be used to calculate the leaderboard rankings?",
+    "affects": [
+      "leaderboard"
+    ],
+    "id": "Q-012",
+    "examples_removed": false
+  },
+  {
+    "category": "missing",
+    "issue": "Details of the MBS system integration are not provided",
+    "quotes": [
+      "sync with our MBS system"
+    ],
+    "refs": [
+      "S7"
+    ],
+    "question": "What data fields need to be synchronized with the MBS system and how frequently should the sync occur?",
+    "affects": [
+      "sync with MBS system"
+    ],
+    "id": "Q-013",
+    "examples_removed": false
+  },
+  {
+    "category": "undefined_term",
+    "issue": "\"MBS system\" is not explained",
+    "quotes": [
+      "MBS system"
+    ],
+    "refs": [
+      "S7"
+    ],
+    "question": "What does the \"MBS system\" refer to and what is its purpose in the integration?",
+    "affects": [
+      "sync with MBS system"
+    ],
+    "id": "Q-014",
+    "examples_removed": false
+  },
+  {
+    "category": "scope_gap",
+    "issue": "Class booking rules and constraints are not specified",
+    "quotes": [
+      "book classes"
+    ],
+    "refs": [
+      "S3"
+    ],
+    "question": "What are the rules for class booking?",
+    "affects": [
+      "book classes"
+    ],
+    "id": "Q-015",
+    "examples_removed": true
+  },
+  {
+    "category": "scope_gap",
+    "issue": "Content and structure of workout plans are not defined",
+    "quotes": [
+      "create workout plans"
+    ],
+    "refs": [
+      "S5"
+    ],
+    "question": "What information and format should be included in the workout plans created by trainers?",
+    "affects": [
+      "create workout plans"
+    ],
+    "id": "Q-016",
+    "examples_removed": false
+  },
+  {
+    "category": "contradiction",
+    "issue": "Conflicting statements about platform delivery",
+    "quotes": [
+      "We need this as a mobile app for iPhone and Android.",
+      "To keep costs low, this should be a web‑only product, no app store apps."
+    ],
+    "refs": [
+      "S4",
+      "S10"
+    ],
+    "question": "Should the product be delivered as native mobile apps for iPhone and Android, or as a web‑only solution?",
+    "affects": [
+      "GENERAL"
+    ],
+    "id": "Q-017",
+    "examples_removed": false
+  }
+]
