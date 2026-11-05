@@ -25,8 +25,10 @@ from prompts import EXTRACT_PROMPT, GAPS_PROMPT, BREAKDOWN_PROMPT
 from tickets import build_tickets
 from verify import verify
 
-# .env lives in the hackathon-2026 folder (one level up)
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+# API key: read .env from this project folder first, then from the folder above it
+HERE = Path(__file__).resolve().parent
+load_dotenv(HERE / ".env")
+load_dotenv(HERE.parent / ".env")
 
 MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 # Groq free tier: 8,000 tokens per minute for this model (input + reserved output).
